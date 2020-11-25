@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(path = "/api/encode/")
+@RequestMapping(path = "/api/encode")
 public class EncodeController {
 
     private final EncodeService encodeService;
