@@ -17,6 +17,6 @@ public class DecodeController {
 
     @PostMapping
     String decode(@RequestBody Request request) {
-        return decodeService.decode(request.getMessage(), request.getMessage());
+        return decodeService.decode(request.message(), request.secret());
     }
 }

@@ -17,6 +17,6 @@ public class EncodeController {
 
     @PostMapping
     public String encode(@RequestBody Request request) {
-        return encodeService.encode(request.getMessage(), request.getSecret());
+        return encodeService.encode(request.message(), request.secret());
     }
 }
